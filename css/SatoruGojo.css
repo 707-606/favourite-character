@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    background-color:#A7C7E7;
+}
+
+/* Header */
+
+/** Audio **/
+header audio{
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    width: 250px;
+    height: 40px;
+}
+
+header{
+    background-color: #A7C7E7;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/** Avatar **/
+
+header img{ 
+    border-radius: 170px;
+    width: 300px;
+    border: 20px solid #6082B6;
+}
+
+/** Headings **/
+header h1, h4{
+    color: #6082B6; 
+    margin-bottom: 30px;
+}
+
+header h1{
+    font-family: 'Kaushan Script';
+    font-size: 50px;
+}
+
+/** Headings **/
+h1, h2{
+    font-family: 'Kaushan Script';
+    font-size: 30px;
+}
+
+h4, h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+h4{
+    margin-bottom: 20px;
+}
+
+/* Main */
+main{
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+main img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;  
+}
+
+/** Quote **/
+.quote{
+    padding-top: 22px;
+    margin: 5px;
+    background-position: top left;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #6082B6;
+}
+
+blockquote span{
+    font-size: 30px;
+    color: #6082B6;
+}
+
+hr{
+    border-bottom: solid;
+    color: rgb(223, 28, 28);
+}
+
+/** Text **/
+
+h2{
+    margin-top: 50px;
+}
+
+h2, a{
+    color: #6082B6;
+}
+
+a:hover{
+    color: rgb(212, 46, 46);
+}
+
+p.caption{
+    text-align: center;
+    color: #999999;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+/* Footer */
+footer{
+    background-color: #6082B6;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: red;
+    opacity: .7;
+    background-color: transparent;
+}
+
+
